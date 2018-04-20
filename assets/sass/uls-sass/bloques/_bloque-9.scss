@@ -1,0 +1,38 @@
+
+.bloque-9 .col-xs-12 {
+	height: 350px;
+}
+
+.bloque-9 .col-xs-12 .card {
+	height: 100%;
+}
+
+
+#what-we-do .bloque-9 .card:hover .card-block:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+
+// FLUID PHP
+
+
+.bloque-9-fluid .col-xs-12 {
+	height: 300px;
+}
+
+.bloque-9-fluid .col-xs-12 .card {
+	height: 100%;
+}
+
+
+#what-we-do .bloque-9-fluid .card:hover .card-block:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}

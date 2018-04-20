@@ -1,0 +1,69 @@
+
+.css-footer {
+	background-color: #191A36;
+	height: auto;
+	width: 100%;
+	padding-top: 15px !important;
+}
+
+.css-footer img.logo-acreditado {
+	margin-top: 1%;
+}
+
+.footer-ruido hr {
+	height: 1px;
+	margin: 0;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.footer-ruido .container {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.footer-ruido {
+	background: #2f354a url('../img/noise.png');
+}
+
+.footer-ruido a {
+    text-decoration: none;
+    color: #86909d;
+    font-size: 11px;
+}
+
+.footer-ruido a:hover, a:active {
+    color: #D6D8DA;
+    transition: color 0.2s ease-out;
+}
+
+.footer-ruido h1 {
+    margin: 0px;
+    padding: 15px 0px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+// .footer-ruido h1 a{
+//     margin: 0px;
+//     padding: 15px 0px 10px;
+//     font-size: 12px;
+//     font-weight: bold !important;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+// }
+
+.footer-ruido ul li {
+    line-height: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-ruido ul {
+	padding-left: 0px;
+}
+
+

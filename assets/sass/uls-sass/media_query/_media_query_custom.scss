@@ -1,0 +1,258 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		
+		.logo-uls {
+			width: 95%;
+			margin-top: 2%;
+		}
+
+		.css-inicio {
+		    height: 11vh;
+		}
+
+		.card-uls h2 {
+			font-size: 10pt;
+		}
+
+		.card-uls a {
+			font-size: 11pt;
+		}
+
+		.primer-bloque {
+			height: 260px;
+		}
+
+		.row-card h5 {
+			font-size: 12pt;
+		}
+
+		.row-card a {
+			font-size: 12pt;
+		}
+
+		.row-card .col-xs-12 .panel .panel-heading {
+			height: auto !important;
+		}
+
+		.row-card .col-xs-12, .panel, .panel-body, .list-group {
+			height: auto !important;
+		}
+
+	}
+
+	@media only screen and (min-width : 360px) {
+		
+		.css-inicio {
+		    height: 11vh;
+		}
+
+		.card-uls h2 {
+			font-size: 10.3pt;
+		}
+
+		.primer-bloque {
+			height: 280px;
+		}
+
+	}
+
+	@media only screen and (min-width : 375px) {
+		
+		.css-inicio {
+		    height: 11vh;
+		}
+
+		.card-uls h2 {
+			font-size: 10.5pt;
+		}
+
+	}
+
+	@media only screen and (min-width : 425px) {
+		
+		.css-inicio {
+		    height: 11vh;
+		}
+
+		.card-uls h2 {
+			font-size: 12.5pt !important;
+		}
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+
+
+		.card-uls a {
+			font-size: 14pt;
+		}
+
+		.primer-bloque {
+			height: 280px;
+		}
+
+
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 767px) {
+
+
+		.alinear-vertical{
+			display: -ms-flex;
+			display: -webkit-flex;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+		}  
+
+		.css-inicio {
+		    height: 11vh;
+		} 
+
+		.logo-uls {
+			width: 70%;
+		}
+
+		.logo-superior .css-inicio img {
+			float: initial !important;
+		}
+
+		.card-uls h2 {
+			font-size: 10pt !important;
+		}
+
+		.primer-bloque {
+			height: 310px;
+		}
+
+		.row-card .col-xs-12 .panel .panel-heading {
+			height: 70px !important;
+		}
+
+		.row-card .col-xs-12, .panel, .panel-body, .list-group {
+			height: 220px !important;
+		}
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 960px) {
+		
+		.css-inicio {
+		    height: 20vh;
+		}
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		
+		.css-inicio {
+		    height: 11vh;
+		}
+
+		.logo-uls {
+			width: 70%;
+			margin-top: 1%;
+		}
+
+		.logo-superior .css-inicio img {
+			float: left !important;
+		}
+
+		.card-uls a {
+			font-size: 10pt !important;
+		}
+
+		.primer-bloque {
+			height: 320px;
+		}
+
+	}
+
+	@media only screen and (min-width : 1024px) {
+
+		.css-inicio {
+		    height: 15vh;
+		}
+
+		.logo-uls {
+			width: 80%;			
+		}
+		
+		.card-uls h2 {
+			font-size: 8pt !important;
+		}
+
+		.row-card a {
+			font-size: 11pt;
+		}
+
+		.row-card h5 {
+			font-size: 11pt;
+		}
+
+	}
+
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+		.card-uls h2 {
+			font-size: 10pt !important;
+		}
+
+		.primer-bloque {
+			height: 250px;
+		}
+
+	}
+
+	/*==========  Non-Mobile First Method  ==========*/
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 1024px) {
+
+		// .imgsliderhome{
+		// 	height: 70vh !important;
+		// 	background-size: contain;
+		// 	background-repeat: no-repeat;
+		// 	width: 100% !important;
+		// 	background-position: center center;
+		// }
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+
+	}
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+
+	}

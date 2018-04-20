@@ -1,0 +1,56 @@
+
+.bloque-10 .col-xs-12 {
+	height: 350px;
+}
+
+.bloque-10 .col-xs-12 .card {
+	height: 100%;
+}
+
+
+#what-we-do .bloque-10 .card:hover .card-block:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+// FLUID PHP
+
+.bloque-10-fluid .col-xs-12 {
+	height: 300px;
+}
+
+.bloque-10-fluid .col-xs-12 .card {
+	height: 100%;
+}
+
+
+#what-we-do .bloque-10-fluid .card:hover .card-block:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.bloque-10-fluid .card {
+    background:#FFF;
+    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    border:1px solid #AAA;
+    border-bottom:3px solid #BBB;
+    padding:0px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    overflow:hidden;
+    // box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    // -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          // transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

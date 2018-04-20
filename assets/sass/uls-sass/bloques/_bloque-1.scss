@@ -1,0 +1,62 @@
+
+.primer-bloque {
+	border: #d6d6d6 1px dotted;
+	background-image: linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -o-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #EEEEEE 0%, #FFFFFF 100%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF) );
+}
+
+.primer-bloque .sin-padding {
+	display: table;
+}
+
+.primer-bloque .sin-padding img {
+	display: table-cell;
+	vertical-align: middle;
+	display:inline-block;
+}
+
+
+
+.primer-bloque1 {
+	border: #d6d6d6 1px dotted;
+	padding-right: 15px;
+	padding-left: 15px;
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #EEEEEE), color-stop(1, #FFFFFF) );
+}
+
+.primer-bloque1 .margin-primer {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+.primer-bloque1 .margin-primer hr{
+	color: #1E0F62;
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+
+.card-height1 {
+	height: 50px;
+	width: 100%;
+}
+
+
+.primer-bloque1 > .sin-padding {
+	top: 15px;
+	padding-left: 5px;
+}
+
+.primer-bloque1 .card-uls {
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 5px;
+}
+
+.primer-bloque1 a{
+	text-decoration: none;
+}
